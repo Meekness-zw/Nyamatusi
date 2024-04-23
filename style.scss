@@ -1,0 +1,267 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hero{ 
+    .logo{ display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; padding-top: 350px;}
+    h3{ display: none;}
+    .menu{ display: none;}
+    .socials{ display: flex; justify-content: space-evenly; padding-top: 650px;}
+    .down{ display: none;}
+  
+ height: 100vh; background-image: url("./image/8d969183a46442799ad642821b3b67c7.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+.Story{text-align: center;
+   
+    h2{text-align: center; font-size: 30px;}
+    button{ background-color: #e75317; color: white; border: 0px; border-radius: 3px; padding: 10px; margin-bottom: 20px;}
+    p{text-align: left;}
+    #fatty{ width: 95%; margin-bottom: 20px;}
+    #fat{ width: 95%; margin-bottom: 20px;}
+}
+.Activities{
+        text-align: center;
+}
+.Wildlife{
+    text-align: center;
+}
+.Suggested{ text-align: center;
+    .info{
+            .orange{ background-color: #e75317; color: white; padding: 20px;
+                h3{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-bottom: 30px;}
+                p{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 15; font-size: 20px; line-height: 30px;}
+                ul{ list-style-type: disc;}
+                li{ font-size: 20px; line-height: 30px;}
+                .iddo img{ width: 90%;}
+                }
+                hr{ background-color: white; border: 1px solid white;}
+                .itenary{ display: flex; justify-content: space-between; align-items: center;}
+                h4{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 15; font-size: 20px; line-height: 30px;}
+
+    }
+}
+.Testimonials{ margin-bottom: 40px; text-align: center;
+    h2{ text-align: left; padding-top: 30px; padding-bottom: 30px;}
+    display: flex; justify-content: center; text-align: center;
+    .smile{ border: 2px solid #e75317; text-align: center; height: 100%; 
+    img{ width: 20%; padding-top: 80px; padding-bottom: 40px;}    
+    p{ text-align: center;}
+    }
+    .haze{ position: relative;}
+    .tet{ position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752177c; height: 100%; width: 100%;}
+    .faze{ position: relative;} 
+    .test{  position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752174d; height: 100%; width: 100%;}   
+}
+.Gallery{ text-align: center; 
+        #animals{ width: 100%;}
+}
+footer{  
+    text-align: center;
+    padding: 20px;
+    button{ background-color: gray; border: 0px solid white;}
+    a{ color: white;}
+    background-color: #e75317; color: white;}
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 568px) {  
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+    html{ transform:smooth;}
+
+    .hero{  font-family: gotham;
+            background-image: url("./image/zebra\ banner\ 2\ 1.png"); height: 100vh; background-size: cover; margin-bottom: 30px; position: relative;
+            .big{display: none;}
+			h1{ font-size: 90px; color: white; display: flex; align-items: center; justify-content: center; margin-top: -180px; font-family: gotham;}
+			h3{ display: contents; color: orangered; font-size: 25px; padding-top: 20px;}	
+			.links{ position: absolute; top: 25px; display: flex;}
+            .navbar{display: none;}
+            .menu{display: flex; justify-content: flex-end; margin-right: 50px; margin-top: -35px;}
+		    a{ color: white; font-size: 25px; padding-left: 20px; text-decoration: none; margin-top: 30px;}
+            a:hover{ color: black;}	
+			.container{  width: 25px; height: 25px; display: flex; flex-direction: column;  position: absolute; top: 33px; left: 580px; }
+			.nav{ height: 2px; width: 25px; background-color: white; margin: 2px;}
+			.navbar{ padding-top: 60px;}
+			.socials{display: flex; flex-direction: column; width: 30px; position: absolute; right: 30px; top: 250px;}
+			.socials img{ margin: 5px; padding-top: 20px;}
+			.down{display: flex; justify-content: center; align-content: center; padding-top: 270px;}		
+		} 
+
+    .Story{ text-align: left; font-family: gotham;
+        h2{ text-align: left; padding-bottom: 50px; padding-top: 80px;}
+        button{ background-color: orangered; border: 0px; padding: 15px; color: white; }
+        #fatt{ align-self: center; width: 30%;}
+        #fat{ width: 70%;}
+    } 
+    .Activities{  left: 100px; margin-bottom: 50px; font-family: gotham;
+        .act{ padding-left: 100px;}
+		h1{ font-size: 30px; color: burlywood; padding-top: 40px;}
+		.set{ display: flex; margin: 50px; margin-left: 5px;}
+		.s{ position: relative;}
+        .s:hover{
+            p{ display: contents;}
+            img{ width: 100%;}
+         }
+		 img{ width: 95%; padding-top: 20px;}
+         img:hover{ opacity: 0.9;}
+		.text{ position: absolute; z-index: 5; bottom: 20px; left: 10px; color: white; text-align: left;}
+        p{ display: none;}
+        
+	} 
+    .Wildlife{ padding-left: 100px; padding-top: 50px; margin-bottom: 30px; font-family: gotham;
+               h2{ padding-bottom: 30px;} 
+              .recent{ width: 35%; display: flex;}
+              .recent img{ padding: 5px; height: 30vh;} 
+              #g{ margin-top: 30px;} 
+              #a{ margin-top: 60px;}
+              .two{ width: 70%; padding-left: 15px;}
+              .two img{ padding-bottom: 10px;}
+              .yawn{ position: relative;}
+              .yawn img{ width: 50%; margin-right: 30px; position: absolute; right: 230px; top: 50px;}
+    } 
+
+    .Suggested{ margin-bottom: 30px; font-family: gotham;
+        h2{ padding-bottom: 20px; padding-left: 110px;}
+        .info{display: flex; height: 100%; 
+            img{ width: 50%;}
+            .orange{width: 50%; 
+                background-color: #e75317; color: white; padding: 20px; display: flex; flex-direction: column; justify-content: center;
+                h3{ margin-bottom: 10px; font-size: 20px;}
+                p{  margin-bottom: 10px; font-size: 15px; line-height: 30px;}
+                ul{ list-style-type: disc;}
+                li{ font-size: 15px; line-height: 30px;}
+                }
+                hr{ background-color: white; border: 1px solid white;}
+                .itenary{ display: flex; justify-content: space-between; align-items: center;
+                img{ width: 20%;}
+                }
+                h4{  margin-bottom: 10px; font-size: 15px; line-height: 30px;}
+    }
+        .tex{ position: relative; height: 100%;
+            img{ height: 100%; object-fit: cover;}
+            .texx{ position: absolute; top: 0; background-color: rgba(0, 0, 0, 0.212); height: 100%; width: 100%; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 50px;}
+        }
+ }
+
+.Testimonials{ margin-bottom: 40px; font-family: gotham;
+    h2{ text-align: left; padding-top: 30px; padding-bottom: 30px;}
+    display: flex; justify-content: center; text-align: center;
+    .smile{ position: relative; padding: 1px 100px; border: 2px solid #e75317; text-align: center; height: 100%; 
+    img{ width: 30%;}    
+    hr{ width: 30%;  position: absolute; border: 1.5px solid rgb(255, 0, 0) ; bottom: 30px; left: 180px;}
+    }
+    .haze{ position: relative;}
+    .tet{ position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752177c; height: 100%; width: 100%;}
+    .faze{ position: relative;} 
+    .test{  position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752174d; height: 100%; width: 100%;}   
+}
+.Gallery{ font-family: gotham;
+    h2{ padding-top: 30px; padding-bottom: 20px; padding-left: 115px;}
+    .drive{ width: 80.5%;}
+    .driv{ width: 91%; margin-left: -50px;}
+    .collect{ margin-bottom: 20px;}
+    .coll img{ width: 82%; margin-left: 30px;}
+    .colt img{ width: 100%; margin-left: 35px;}
+    .vrr img{ margin-right: 68px; width: 86%;}
+    .stat{ margin-bottom: 30px;}
+    .sun{ width: 125%;}
+}
+footer{ font-family: gotham;
+    color: white; background-color: #e75317; width: 100%; display: flex; justify-content: space-around;
+.foots{ display: flex; flex-direction: column; color:white}
+ a{ color: white; margin-top: 20px; text-decoration: none; padding-bottom: 10px;}
+button{ background-color: grey; color: white; border: 0px; padding: 5px;}
+hr{ border: 1.5px solid;}
+.copyright{ text-align: center;}
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+}

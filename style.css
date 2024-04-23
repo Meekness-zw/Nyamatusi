@@ -1,0 +1,669 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./image/8d969183a46442799ad642821b3b67c7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 350px;
+}
+.hero h3 {
+  display: none;
+}
+.hero .menu {
+  display: none;
+}
+.hero .socials {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 650px;
+}
+.hero .down {
+  display: none;
+}
+
+.Story {
+  text-align: center;
+}
+.Story h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.Story button {
+  background-color: #e75317;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.Story p {
+  text-align: left;
+}
+.Story #fatty {
+  width: 95%;
+  margin-bottom: 20px;
+}
+.Story #fat {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.Activities {
+  text-align: center;
+}
+
+.Wildlife {
+  text-align: center;
+}
+
+.Suggested {
+  text-align: center;
+}
+.Suggested .info .orange {
+  background-color: #e75317;
+  color: white;
+  padding: 20px;
+}
+.Suggested .info .orange h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+.Suggested .info .orange p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 15;
+  font-size: 20px;
+  line-height: 30px;
+}
+.Suggested .info .orange ul {
+  list-style-type: disc;
+}
+.Suggested .info .orange li {
+  font-size: 20px;
+  line-height: 30px;
+}
+.Suggested .info .orange .iddo img {
+  width: 90%;
+}
+.Suggested .info hr {
+  background-color: white;
+  border: 1px solid white;
+}
+.Suggested .info .itenary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Suggested .info h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 15;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.Testimonials {
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.Testimonials h2 {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Testimonials .smile {
+  border: 2px solid #e75317;
+  text-align: center;
+  height: 100%;
+}
+.Testimonials .smile img {
+  width: 20%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.Testimonials .smile p {
+  text-align: center;
+}
+.Testimonials .haze {
+  position: relative;
+}
+.Testimonials .tet {
+  position: absolute;
+  top: 0px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 30px;
+  background-color: rgba(231, 82, 23, 0.4862745098);
+  height: 100%;
+  width: 100%;
+}
+.Testimonials .faze {
+  position: relative;
+}
+.Testimonials .test {
+  position: absolute;
+  top: 0px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 30px;
+  background-color: rgba(231, 82, 23, 0.3019607843);
+  height: 100%;
+  width: 100%;
+}
+
+.Gallery {
+  text-align: center;
+}
+.Gallery #animals {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e75317;
+  color: white;
+}
+footer button {
+  background-color: gray;
+  border: 0px solid white;
+}
+footer a {
+  color: white;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  html {
+    transform: smooth;
+  }
+  .hero {
+    font-family: gotham;
+    background-image: url("./image/zebra banner 2 1.png");
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .hero .big {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -180px;
+    font-family: gotham;
+  }
+  .hero h3 {
+    display: contents;
+    color: orangered;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .hero .links {
+    position: absolute;
+    top: 25px;
+    display: flex;
+  }
+  .hero .navbar {
+    display: none;
+  }
+  .hero .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: -35px;
+  }
+  .hero a {
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  .hero a:hover {
+    color: black;
+  }
+  .hero .container {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 33px;
+    left: 580px;
+  }
+  .hero .nav {
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    margin: 2px;
+  }
+  .hero .navbar {
+    padding-top: 60px;
+  }
+  .hero .socials {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    position: absolute;
+    right: 30px;
+    top: 250px;
+  }
+  .hero .socials img {
+    margin: 5px;
+    padding-top: 20px;
+  }
+  .hero .down {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 270px;
+  }
+  .Story {
+    text-align: left;
+    font-family: gotham;
+  }
+  .Story h2 {
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  .Story button {
+    background-color: orangered;
+    border: 0px;
+    padding: 15px;
+    color: white;
+  }
+  .Story #fatt {
+    align-self: center;
+    width: 30%;
+  }
+  .Story #fat {
+    width: 70%;
+  }
+  .Activities {
+    left: 100px;
+    margin-bottom: 50px;
+    font-family: gotham;
+  }
+  .Activities .act {
+    padding-left: 100px;
+  }
+  .Activities h1 {
+    font-size: 30px;
+    color: burlywood;
+    padding-top: 40px;
+  }
+  .Activities .set {
+    display: flex;
+    margin: 50px;
+    margin-left: 5px;
+  }
+  .Activities .s {
+    position: relative;
+  }
+  .Activities .s:hover p {
+    display: contents;
+  }
+  .Activities .s:hover img {
+    width: 100%;
+  }
+  .Activities img {
+    width: 95%;
+    padding-top: 20px;
+  }
+  .Activities img:hover {
+    opacity: 0.9;
+  }
+  .Activities .text {
+    position: absolute;
+    z-index: 5;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    text-align: left;
+  }
+  .Activities p {
+    display: none;
+  }
+  .Wildlife {
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-family: gotham;
+  }
+  .Wildlife h2 {
+    padding-bottom: 30px;
+  }
+  .Wildlife .recent {
+    width: 35%;
+    display: flex;
+  }
+  .Wildlife .recent img {
+    padding: 5px;
+    height: 30vh;
+  }
+  .Wildlife #g {
+    margin-top: 30px;
+  }
+  .Wildlife #a {
+    margin-top: 60px;
+  }
+  .Wildlife .two {
+    width: 70%;
+    padding-left: 15px;
+  }
+  .Wildlife .two img {
+    padding-bottom: 10px;
+  }
+  .Wildlife .yawn {
+    position: relative;
+  }
+  .Wildlife .yawn img {
+    width: 50%;
+    margin-right: 30px;
+    position: absolute;
+    right: 230px;
+    top: 50px;
+  }
+  .Suggested {
+    margin-bottom: 30px;
+    font-family: gotham;
+  }
+  .Suggested h2 {
+    padding-bottom: 20px;
+    padding-left: 110px;
+  }
+  .Suggested .info {
+    display: flex;
+    height: 100%;
+  }
+  .Suggested .info img {
+    width: 50%;
+  }
+  .Suggested .info .orange {
+    width: 50%;
+    background-color: #e75317;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Suggested .info .orange h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .Suggested .info .orange p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .Suggested .info .orange ul {
+    list-style-type: disc;
+  }
+  .Suggested .info .orange li {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .Suggested .info hr {
+    background-color: white;
+    border: 1px solid white;
+  }
+  .Suggested .info .itenary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Suggested .info .itenary img {
+    width: 20%;
+  }
+  .Suggested .info h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .Suggested .tex {
+    position: relative;
+    height: 100%;
+  }
+  .Suggested .tex img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Suggested .tex .texx {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.212);
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+  }
+  .Testimonials {
+    margin-bottom: 40px;
+    font-family: gotham;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .Testimonials h2 {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Testimonials .smile {
+    position: relative;
+    padding: 1px 100px;
+    border: 2px solid #e75317;
+    text-align: center;
+    height: 100%;
+  }
+  .Testimonials .smile img {
+    width: 30%;
+  }
+  .Testimonials .smile hr {
+    width: 30%;
+    position: absolute;
+    border: 1.5px solid rgb(255, 0, 0);
+    bottom: 30px;
+    left: 180px;
+  }
+  .Testimonials .haze {
+    position: relative;
+  }
+  .Testimonials .tet {
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    background-color: rgba(231, 82, 23, 0.4862745098);
+    height: 100%;
+    width: 100%;
+  }
+  .Testimonials .faze {
+    position: relative;
+  }
+  .Testimonials .test {
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 30px;
+    background-color: rgba(231, 82, 23, 0.3019607843);
+    height: 100%;
+    width: 100%;
+  }
+  .Gallery {
+    font-family: gotham;
+  }
+  .Gallery h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 115px;
+  }
+  .Gallery .drive {
+    width: 80.5%;
+  }
+  .Gallery .driv {
+    width: 91%;
+    margin-left: -50px;
+  }
+  .Gallery .collect {
+    margin-bottom: 20px;
+  }
+  .Gallery .coll img {
+    width: 82%;
+    margin-left: 30px;
+  }
+  .Gallery .colt img {
+    width: 100%;
+    margin-left: 35px;
+  }
+  .Gallery .vrr img {
+    margin-right: 68px;
+    width: 86%;
+  }
+  .Gallery .stat {
+    margin-bottom: 30px;
+  }
+  .Gallery .sun {
+    width: 125%;
+  }
+  footer {
+    font-family: gotham;
+    color: white;
+    background-color: #e75317;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .foots {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  footer a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+  footer button {
+    background-color: grey;
+    color: white;
+    border: 0px;
+    padding: 5px;
+  }
+  footer hr {
+    border: 1.5px solid;
+  }
+  footer .copyright {
+    text-align: center;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */
