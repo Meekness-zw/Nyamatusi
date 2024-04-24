@@ -48,66 +48,197 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+// Phone
+html{ transition: smooth;}
 
-.hero{ 
-    .logo{ display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; padding-top: 350px;}
-    h3{ display: none;}
-    .menu{ display: none;}
-    .socials{ display: flex; justify-content: space-evenly; padding-top: 650px;}
-    .down{ display: none;}
-  
- height: 100vh; background-image: url("./image/8d969183a46442799ad642821b3b67c7.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;
+header{ 
+    display: none;
 }
-.Story{text-align: center;
-   
-    h2{text-align: center; font-size: 30px;}
+.white{ 
+    width: 600px;
+    height: 1px;
+    background-color: white;
+    margin-left: -500%;
+    position: absolute;
+    top: 60px;
+}
+#nyama{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: orangered;
+    z-index: 1;
+    font-family: papyrus;
+}
+.hero{ 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./image/5f3b4d18e4c8b1ca2d05bce43706072f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{ color: white; font-size: 60px;}
+    .navv{
+        position: absolute;
+        top: 2px;
+        right: 10px;
+       }
+    .socials{ display: none;}  
+    #down{ 
+        position: absolute;
+        bottom: 15px;
+    } 
+   }
+
+.Story{
+    text-align: center;
+    padding-bottom: 40px;
+    h2{font-family: gotham; font-size: 30px; padding-top: 30px; padding-bottom: 20px;}
     button{ background-color: #e75317; color: white; border: 0px; border-radius: 3px; padding: 10px; margin-bottom: 20px;}
     p{text-align: left;}
-    #fatty{ width: 95%; margin-bottom: 20px;}
-    #fat{ width: 95%; margin-bottom: 20px;}
+    #fatty{ width: 100%; margin-bottom: 10px;}
+    #fat{ width: 100%; margin-bottom: 10px;}
 }
 .Activities{
-        text-align: center;
+       display: none;
+}
+.active{
+    text-align: center;
+    ourr{
+        height: 70%;
+        width: 100%;
+    }
+    h2{
+        padding-bottom: 20px;
+        font-family: gotham;
+    }
 }
 .Wildlife{
     text-align: center;
+    h2{ padding-top: 40px; padding-bottom: 40px; font-family: gotham;}
+    p{ text-align: left;}
+    img{ width: 100%; padding-bottom: 10px;}
+    padding-bottom: 30px;
 }
 .Suggested{ text-align: center;
     .info{
-            .orange{ background-color: #e75317; color: white; padding: 20px;
-                h3{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-bottom: 30px;}
-                p{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 15; font-size: 20px; line-height: 30px;}
+            .orange{ background-color: #e75317; color: white; padding: 20px; position: relative;
+                h3{ font-family: gotham; margin-bottom: 30px;}
+                p{ font-family: gotham; margin-bottom: 15; font-size: 20px; line-height: 30px;}
                 ul{ list-style-type: disc;}
                 li{ font-size: 20px; line-height: 30px;}
                 .iddo img{ width: 90%;}
                 }
                 hr{ background-color: white; border: 1px solid white;}
                 .itenary{ display: flex; justify-content: space-between; align-items: center;}
-                h4{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-bottom: 15; font-size: 20px; line-height: 30px;}
+                h4{ font-family: gotham; margin-bottom: 15px; font-size: 20px; line-height: 30px;}
+            .love{ 
+                img{width: 20px;}
+            height: 50px;width: 30px;
+            position: absolute;top: 0px;
+            right: 10px;
+            background-color: white;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            }
+            tex{
+                position: relative;
+            }
+            texx{
+                position: absolute;
+                top: 0px;
+                background-color: rgba(0, 0, 0, 0.34);
+                height: 100px;
+                width: 100px;
+                text-align: center;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                padding-bottom: 50px;
+            }
+    }
+    h2{ margin-bottom: 40px; font-size: 26px; font-family: gotham; text-align: center;}
+    padding-bottom: 40px;
+}
+.Testimonials{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .haze{
+        position: relative;
+    }
+    .tet{
+        position: absolute;
+        top: 0px;
+        background-color: #e7521749;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 30px;
+    }
+    .smile{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid orangered;
+        text-align: center;
+        hr{ color: orangered; width: 40px; border: 1px solid orangered;}
+        .line{ width: 100%; text-align: center; height: 100%; display: flex; justify-content: center;}
+        p{ padding-top: 20px;}
+        #jem{ width: 50%;}
+    }
+    margin-bottom: 50px;
+    h2{ padding-bottom: 30px; font-family: gotham;}
+}
+.Gallery{ 
+    img{margin-top: 20px; 
+        width: 100%;
+        height: 40vh;
+    }
+    text-align: center;
+    h2{padding-bottom: 30px;font-family: gotham;}
+    #boat img{
+        width: 100%;
+    }
+    .sun img{width: 100%;}
+    padding-bottom: 50px;
+}
 
-    }
-}
-.Testimonials{ margin-bottom: 40px; text-align: center;
-    h2{ text-align: left; padding-top: 30px; padding-bottom: 30px;}
-    display: flex; justify-content: center; text-align: center;
-    .smile{ border: 2px solid #e75317; text-align: center; height: 100%; 
-    img{ width: 20%; padding-top: 80px; padding-bottom: 40px;}    
-    p{ text-align: center;}
-    }
-    .haze{ position: relative;}
-    .tet{ position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752177c; height: 100%; width: 100%;}
-    .faze{ position: relative;} 
-    .test{  position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752174d; height: 100%; width: 100%;}   
-}
-.Gallery{ text-align: center; 
-        #animals{ width: 100%;}
-}
 footer{  
     text-align: center;
-    padding: 20px;
-    button{ background-color: gray; border: 0px solid white;}
-    a{ color: white;}
-    background-color: #e75317; color: white;}
+    padding-left: 30px;
+    padding-top: 30px;
+    foots{ padding-bottom: 30px;}
+    button{ background-color: rgb(0, 0, 0); border: 1px solid black; padding: 8px; color: white;}
+    a{ color: white; text-decoration: none; display: flex; flex-direction: column;}
+    #sign{ padding-bottom: 15px;}
+    background-color: #e75317; 
+    color: white;
+    .area{
+        position: relative;
+        input{
+            height: 42px;
+            border: 1px white;
+            margin-bottom: 20px;
+        }
+    }
+    .foots{
+        font-family: gotham;
+    }
+   .btn2{position: absolute;} 
+}
+    
 
 
 /*
@@ -134,24 +265,56 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) { 
-    html{ transform:smooth;}
 
+    header{
+        border-bottom: 1px solid white;
+        display: block;
+        .menu{ position: absolute;
+        top: 20px;
+        right: 150px;
+        z-index: 1;
+        a{ color: white; text-decoration: none; margin-right: 20px; font-size: 20px; font-family: gotham;}
+        }
+        img{ 
+            width: 40px;
+            position: absolute;
+            top: 25px;
+            right: 40px;
+            z-index: 1;
+        }
+        #nyama{ 
+            position: absolute;
+            color: orangered;
+            top: 15px;
+            left: 60px;
+            z-index: 1;
+        }
+    }
     .hero{  font-family: gotham;
-            background-image: url("./image/zebra\ banner\ 2\ 1.png"); height: 100vh; background-size: cover; margin-bottom: 30px; position: relative;
+            background-image: url("./image/zebra\ banner\ 2\ 1.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            .socials{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                right: 40px;
+                width: 24px;
+                img{ margin-top: 35px;}
+                #facebook{ width: 17px;}
+            }
+            #down{ 
+                position: absolute;
+                bottom: 40px;
+                width: 40px;
+            }
             .big{display: none;}
-			h1{ font-size: 90px; color: white; display: flex; align-items: center; justify-content: center; margin-top: -180px; font-family: gotham;}
-			h3{ display: contents; color: orangered; font-size: 25px; padding-top: 20px;}	
-			.links{ position: absolute; top: 25px; display: flex;}
-            .navbar{display: none;}
-            .menu{display: flex; justify-content: flex-end; margin-right: 50px; margin-top: -35px;}
-		    a{ color: white; font-size: 25px; padding-left: 20px; text-decoration: none; margin-top: 30px;}
-            a:hover{ color: black;}	
-			.container{  width: 25px; height: 25px; display: flex; flex-direction: column;  position: absolute; top: 33px; left: 580px; }
-			.nav{ height: 2px; width: 25px; background-color: white; margin: 2px;}
-			.navbar{ padding-top: 60px;}
-			.socials{display: flex; flex-direction: column; width: 30px; position: absolute; right: 30px; top: 250px;}
-			.socials img{ margin: 5px; padding-top: 20px;}
-			.down{display: flex; justify-content: center; align-content: center; padding-top: 270px;}		
+			h1{ font-size: 100px; padding-bottom: 140px;}
+            .navv{ display: none;}
+            margin-bottom: 60px;	
 		} 
 
     .Story{ text-align: left; font-family: gotham;
@@ -160,8 +323,11 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         #fatt{ align-self: center; width: 30%;}
         #fat{ width: 70%;}
     } 
-    .Activities{  left: 100px; margin-bottom: 50px; font-family: gotham;
+    .Activities{  display: block; padding-bottom: 90px;
         .act{ padding-left: 100px;}
+        h2{padding-bottom: 80px;text-align: left;font-family: gotham;}
+        h4{display: block;}
+        img{width: 18%;}
 		h1{ font-size: 30px; color: burlywood; padding-top: 40px;}
 		.set{ display: flex; margin: 50px; margin-left: 5px;}
 		.s{ position: relative;}
@@ -172,37 +338,52 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 		 img{ width: 95%; padding-top: 20px;}
          img:hover{ opacity: 0.9;}
 		.text{ position: absolute; z-index: 5; bottom: 20px; left: 10px; color: white; text-align: left;}
-        p{ display: none;}
-        
+        p{ display: none;}  
 	} 
-    .Wildlife{ padding-left: 100px; padding-top: 50px; margin-bottom: 30px; font-family: gotham;
-               h2{ padding-bottom: 30px;} 
-              .recent{ width: 35%; display: flex;}
-              .recent img{ padding: 5px; height: 30vh;} 
-              #g{ margin-top: 30px;} 
-              #a{ margin-top: 60px;}
-              .two{ width: 70%; padding-left: 15px;}
-              .two img{ padding-bottom: 10px;}
-              .yawn{ position: relative;}
-              .yawn img{ width: 50%; margin-right: 30px; position: absolute; right: 230px; top: 50px;}
+    .active{ display: none;}
+    .Wildlife{ 
+            padding-bottom: 80px;
+            h2{ text-align: left;} 
+            #gone{width: 17%;height: 20%;margin-right: 15px;padding-top: 70px;}
+            #zom{width: 17%;height: 20%;margin-right: 15px;padding-top: 20px;}
+            #bye{width: 17%;height: 20%;margin-right: 15px;padding-top: 130px;}
+            .recent{display: flex;}
+            #row{
+                margin-right: 15px;
+                display: flex;
+                flex-direction: column;
+                img{width: 98%;}
+                margin-top: -145px;
+            }
+            .container-fluid{
+                width: 50%;
+                margin-left: -10px;
+            }
+            #yawn{ width: 18%;height: 45%;}
+            .yawn{ margin-top: -30px;}
     } 
 
-    .Suggested{ margin-bottom: 30px; font-family: gotham;
-        h2{ padding-bottom: 20px; padding-left: 110px;}
+    .Suggested{ 
+        margin-bottom: 30px; font-family: gotham;
+        h2{ text-align: left;margin-bottom: 40px;font-size: 25px;}
         .info{display: flex; height: 100%; 
             img{ width: 50%;}
-            .orange{width: 50%; 
+            .orange{
+                width: 50%; 
+                position: relative;
                 background-color: #e75317; color: white; padding: 20px; display: flex; flex-direction: column; justify-content: center;
                 h3{ margin-bottom: 10px; font-size: 20px;}
-                p{  margin-bottom: 10px; font-size: 15px; line-height: 30px;}
+                p{ margin-bottom: 10px; font-size: 15px; line-height: 30px;}
                 ul{ list-style-type: disc;}
                 li{ font-size: 15px; line-height: 30px;}
+                margin-left: -15px;
                 }
-                hr{ background-color: white; border: 1px solid white;}
-                .itenary{ display: flex; justify-content: space-between; align-items: center;
-                img{ width: 20%;}
+                hr{ background-color: white; border: 1px solid white; width: 100%;}
+                .itenary{ 
+                    display: flex; justify-content: space-between; align-items: center;
+                    img{ width: 20%;}
                 }
-                h4{  margin-bottom: 10px; font-size: 15px; line-height: 30px;}
+                h4{font-size: 15px;}
     }
         .tex{ position: relative; height: 100%;
             img{ height: 100%; object-fit: cover;}
@@ -210,39 +391,69 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         }
  }
 
-.Testimonials{ margin-bottom: 40px; font-family: gotham;
-    h2{ text-align: left; padding-top: 30px; padding-bottom: 30px;}
-    display: flex; justify-content: center; text-align: center;
-    .smile{ position: relative; padding: 1px 100px; border: 2px solid #e75317; text-align: center; height: 100%; 
-    img{ width: 30%;}    
-    hr{ width: 30%;  position: absolute; border: 1.5px solid rgb(255, 0, 0) ; bottom: 30px; left: 180px;}
+.Testimonials{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    h2{ text-align: left;padding-top: 60px;padding-bottom: 50px;}
+    .smile{ margin: 0px; height: 100%; 
+    #jem{ width: 30%;} 
+    p{font-size: 15px;text-align: center;}
+    h3{font-size: 15px;margin-top: -30px;} 
+    .container{ 
+        height: 10vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .line{height: 25px;width: 40%; margin-top: -60px;} 
     }
-    .haze{ position: relative;}
-    .tet{ position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752177c; height: 100%; width: 100%;}
-    .faze{ position: relative;} 
-    .test{  position: absolute; top: 0px; color: white; text-align: center; display: flex; flex-direction: column; justify-content: end; padding-bottom: 30px; background-color: #e752174d; height: 100%; width: 100%;}   
+        }
+        .haze{
+            position: relative;
+        }
+        .tet{
+            position: absolute;
+            top: 0px;
+            background-color: #e7521749;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding-bottom: 30px;
+
+   }
+.Gallery{ 
+    h2{text-align: left;}
+    .truck img{
+        height: 35.5vh;
+        width: 55vh;
+        object-fit: cover;
+    }
+    .car img{height: 35.5vh;width: 110%;object-fit: cover;}
+    #sun{height: 35.5vh;width: 100%;object-fit: cover;}
+    .sun img{object-fit: cover;}
+    #boat img{object-fit: cover;}
 }
-.Gallery{ font-family: gotham;
-    h2{ padding-top: 30px; padding-bottom: 20px; padding-left: 115px;}
-    .drive{ width: 80.5%;}
-    .driv{ width: 91%; margin-left: -50px;}
-    .collect{ margin-bottom: 20px;}
-    .coll img{ width: 82%; margin-left: 30px;}
-    .colt img{ width: 100%; margin-left: 35px;}
-    .vrr img{ margin-right: 68px; width: 86%;}
-    .stat{ margin-bottom: 30px;}
-    .sun{ width: 125%;}
-}
-footer{ font-family: gotham;
-    color: white; background-color: #e75317; width: 100%; display: flex; justify-content: space-around;
-.foots{ display: flex; flex-direction: column; color:white}
- a{ color: white; margin-top: 20px; text-decoration: none; padding-bottom: 10px;}
-button{ background-color: grey; color: white; border: 0px; padding: 5px;}
-hr{ border: 1.5px solid;}
-.copyright{ text-align: center;}
-}
+footer{ 
+    width: 100%;
+    display:flex; 
+    justify-content:space-around;
+    h4{ font-size: 18px;}
+    p{ font-size: 13px;}
+    a{ font-size: 13px;}
+    form{ display: flex;}
+    area button{ padding: 8px; position: absolute;}
+    area{ position: relative;}
 
 }
+}
+}
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
